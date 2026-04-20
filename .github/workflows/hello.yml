@@ -19,6 +19,9 @@ jobs:
 
       - name: Show files
         run: ls
+      
+      - name: Show files 1
+        run: ls -la 
 
       - name: Show current directory
         run: pwd
