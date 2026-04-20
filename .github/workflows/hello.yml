@@ -34,3 +34,12 @@ jobs:
 
       - name: Terraform Plan
         run: terraform plan
+
+      - name: Terraform Fmt
+        run: terraform fmt -check
+
+      - name: Terraform Validate
+        run: terraform validate
+
+      - name: Terraform Plan
+        run: terraform plan
