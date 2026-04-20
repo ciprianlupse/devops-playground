@@ -8,4 +8,12 @@ jobs:
 
     steps:
       - name: Print message
-        run: echo "Pipeline is working!"
+        run: echo "Hello DevOps"
+
+
+      - name: Show Files
+        run: ls -la
+        
+      - name: Show current directory
+        run: pwd        
+        
