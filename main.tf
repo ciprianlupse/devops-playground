@@ -1,7 +1,6 @@
-terraform{
-  required_version = ">= 1.0"
+terraform {
+required_version = ">= 1.0"
 }
 
-resource "null_resource" "test" {}
-
-#test 5#
+resource "null_resource" "test" {
+}
