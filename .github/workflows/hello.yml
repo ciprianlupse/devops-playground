@@ -15,5 +15,14 @@ jobs:
         run: ls -la
         
       - name: Show current directory
-        run: pwd        
+        run: pwd      
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+
+      - name: Terraform Init
+        run: terraform init
+
+      - name: Terraform Plan
+        run: terraform plan
         
